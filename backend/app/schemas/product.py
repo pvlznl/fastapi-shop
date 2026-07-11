@@ -1,10 +1,6 @@
-from lib2to3.fixes.fix_filter import FixFilter
-
 from pydantic import BaseModel, Field
 from datetime import datetime
 from typing import Optional
-
-from backend.app.models import Category
 from .category import CategoryResponse
 
 
